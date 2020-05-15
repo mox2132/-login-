@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn.discordapp.com/attachments/710552158222811156/710637030777815080/login.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+ 
+ 
+ 
+.Loginbox {
+    width: 342px;
+    height: 410px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+ 
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    padding: 5px;
+    text-align: center;
+}
+ 
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.Loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.Loginbox input{
+    width: 100%;
+    margin-bottom: 30px;
+ 
+}
+.Loginbox input[type="username"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+ 
+.Loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: grey;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.Loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.Loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: gray;
+}
+.Loginbox a :hover{
+    color: #ffc107;
+}
